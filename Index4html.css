@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#box1, #box2 {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+#box1 {
+    border: 4px lightslategray;
+    border-style: solid;
+    padding: 30px;
+    border-style: dotted;
+}
+
+#box2 {
+    border: 4px lightslategray;
+    border-style: solid;
+    padding: 30px;
+    border-style: dotted;
+}
+
+#box1 p, #box2 p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    font-family: monospace;
+}
+
+#title {
+    margin: 5%;
+    padding: 4%;
+    text-align: center;
+    background-color: rgb(248, 248, 247);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.magical {
+    background-color: rgb(243, 243, 243);
+    align-items: center;
+    margin: 3%;
+}

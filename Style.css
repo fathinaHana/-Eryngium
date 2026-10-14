@@ -1,0 +1,27 @@
+.namedex {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5%;
+    }
+
+.sectiondex {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    column-gap: 2rem;
+    background-color: white;
+    color: rgb(73, 64, 53);
+    margin: 3%;
+    padding-left: 5%;
+    padding-right: 3%;
+    }
+
+.karyadex {
+    margin-top: 3%;
+    text-align: center;
+    padding: 4%;
+    }
+
+.pdex {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
